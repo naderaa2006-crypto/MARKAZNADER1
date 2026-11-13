@@ -1,0 +1,1980 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2a3bf5">
+  <title>مركز نادر | حجز وإدارة صيانة السيارات</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="site-shell">
+
+  <header class="topbar">
+    <a class="brand" href="#" data-go="role-view">
+      <span class="brand-mark">ن</span>
+      <span class="brand-copy">
+        <strong>مركز نادر</strong>
+        <small>خدمة سيارتك بثقة</small>
+      </span>
+    </a>
+
+    <div class="topbar-side">
+      <span class="open-indicator">
+        <i></i>
+        نظام الحجز الإلكتروني
+      </span>
+<button class="text-button" type="button" data-go="role-view">الرئيسية</button>
+
+<button class="theme-toggle" id="theme-toggle" type="button"
+  aria-label="تفعيل الوضع الداكن" title="تغيير المظهر">
+  <span id="theme-icon">☾</span>
+</button>    </div>
+  </header>
+
+  <main>
+
+    <!-- اختيار نوع الدخول -->
+    <section class="view active" id="role-view">
+
+      <div class="role-hero">
+
+        <div class="role-copy">
+          <span class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            مركز نادر لصيانة السيارات
+          </span>
+
+          <h1>
+            سيارتك تستحق<br>
+            <span>العناية الأفضل.</span>
+          </h1>
+
+          <p>
+            احجز موعد صيانة بسهولة، أو ادخل إلى
+            لوحة إدارة المركز لمتابعة العمل والحجوزات.
+          </p>
+
+          <div class="role-actions">
+            <button class="primary-button" type="button" data-go="user-view">
+              احجز موعدك <span>←</span>
+            </button>
+            <span class="role-note">زيت · ميكانيكا · سمكرة</span>
+          </div>
+        </div>
+
+        <div class="role-image-wrap">
+          <img
+            class="role-image"
+            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1500&q=88"
+            alt="سيارة داخل مركز صيانة"
+          >
+
+          <div class="image-caption">
+            <span>01 / 03</span>
+            <strong>عناية دقيقة. تجربة أسهل.</strong>
+          </div>
+
+          <div class="image-stamp">
+            <span>مركز</span>
+            <strong>نادر</strong>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="role-selection">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">ابدأ من هنا</span>
+            <h2>كيف ترغب بالدخول؟</h2>
+          </div>
+          <p>اختر نوع حسابك للمتابعة.</p>
+        </div>
+
+        <div class="role-cards">
+
+          <button class="role-card customer-role" type="button" data-go="user-view">
+            <span class="role-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="8" r="3.5"></circle>
+                <path d="M4.8 20c.7-3.5 3.1-5.3 7.2-5.3s6.5 1.8 7.2 5.3"></path>
+              </svg>
+            </span>
+
+            <span class="role-card-copy">
+              <strong>أنا مستخدم</strong>
+              <small>أرغب في حجز موعد لصيانة سيارتي</small>
+            </span>
+
+            <span class="role-arrow">↙</span>
+          </button>
+
+          <button class="role-card admin-role" type="button" data-go="admin-login-view">
+            <span class="role-icon">
+              <svg viewBox="0 0 24 24">
+                <rect x="4" y="10" width="16" height="11" rx="2"></rect>
+                <path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"></path>
+              </svg>
+            </span>
+
+            <span class="role-card-copy">
+              <strong>أنا مدير المركز</strong>
+              <small>الدخول إلى لوحة التحكم وإدارة الحجوزات</small>
+            </span>
+
+            <span class="role-arrow">↙</span>
+          </button>
+
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <span>© 2026 مركز نادر</span>
+        <span>صيانة باهتمام · مواعيد بوضوح</span>
+      </footer>
+    </section>
+
+
+    <!-- صفحة المستخدم والحجز -->
+    <section class="view" id="user-view">
+
+      <div class="view-toolbar">
+        <button class="back-button" type="button" data-go="role-view">
+          → العودة لاختيار الدخول
+        </button>
+        <span class="view-tag">حجز موعد جديد</span>
+      </div>
+
+      <div class="user-hero">
+
+        <div class="user-hero-copy">
+          <span class="eyebrow">مركز نادر · خدمات السيارات</span>
+
+          <h1>
+            خلّ سيارتك<br>
+            <span>في أيدٍ أمينة.</span>
+          </h1>
+
+          <p>
+            اختر الخدمة المناسبة وحدد الوقت الذي يناسبك.
+            سنكون بانتظارك.
+          </p>
+
+          <div class="hero-points">
+            <span>01 <b>اختر الخدمة</b></span>
+            <span>02 <b>حدد الموعد</b></span>
+            <span>03 <b>أكد الحجز</b></span>
+          </div>
+        </div>
+
+        <div class="user-hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=88"
+            alt="فني يعمل على سيارة في ورشة"
+          >
+
+          <div class="floating-note">
+            <span class="note-check">✓</span>
+            <span>
+              <strong>موعدك أصبح أسهل</strong>
+              <small>احجز خلال دقائق</small>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- الخدمات -->
+      <section class="services-section">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">خدماتنا</span>
+            <h2>وش تحتاج سيارتك؟</h2>
+          </div>
+          <p>ثلاث خدمات أساسية، بعناية واحدة.</p>
+        </div>
+
+        <div class="service-cards" id="service-cards">
+          <div class="loading-card">جاري تحميل الخدمات...</div>
+        </div>
+
+      </section>
+
+
+      <!-- نموذج الحجز -->
+      <section class="booking-section" id="booking-section">
+
+        <div class="booking-intro">
+
+          <div class="opening-offer">
+            <div class="offer-center">
+              <small>عرض الافتتاح</small>
+              <strong>30%</strong>
+              <span>خصم خاص</span>
+            </div>
+          </div>
+
+          <span class="eyebrow">احجز الآن</span>
+
+          <h2>
+            موعدك يبدأ<br>
+            من هنا.
+          </h2>
+
+          <p>
+            أدخل بياناتك وبيانات السيارة،
+            وسنرسل طلبك مباشرة إلى إدارة المركز.
+          </p>
+
+          <div class="booking-side-image">
+            <img
+              src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1000&q=85"
+              alt="تفاصيل سيارة في ورشة"
+            >
+          </div>
+
+        </div>
+
+
+        <div class="booking-form-card">
+
+          <div class="form-card-heading">
+            <div>
+              <span class="eyebrow">بيانات الحجز</span>
+              <h3>طلب موعد صيانة</h3>
+            </div>
+            <span class="form-step">01 <i>/</i> 03</span>
+          </div>
+
+
+          <form id="booking-form">
+
+            <div class="form-grid">
+
+              <label class="field">
+                <span>الاسم الكامل *</span>
+                <input
+                  name="customerName"
+                  type="text"
+                  placeholder="مثال: نادر محمد"
+                  required
+                  maxlength="80"
+                >
+              </label>
+
+              <label class="field">
+                <span>رقم الجوال *</span>
+                <input
+                  name="phone"
+                  type="tel"
+                  placeholder="05xxxxxxxx"
+                  required
+                  maxlength="18"
+                >
+              </label>
+
+              <label class="field">
+                <span>نوع السيارة *</span>
+                <input
+                  name="carMake"
+                  type="text"
+                  placeholder="مثال: تويوتا"
+                  required
+                  maxlength="50"
+                >
+              </label>
+
+              <label class="field">
+                <span>موديل السيارة *</span>
+                <input
+                  name="carModel"
+                  type="text"
+                  placeholder="مثال: كامري 2022"
+                  required
+                  maxlength="60"
+                >
+              </label>
+
+              <label class="field">
+                <span>رقم اللوحة</span>
+                <input
+                  name="plateNumber"
+                  type="text"
+                  placeholder="اختياري"
+                  maxlength="20"
+                >
+              </label>
+
+              <label class="field">
+                <span>الخدمة المطلوبة *</span>
+                <select name="serviceId" id="service-select" required>
+                  <option value="">اختر الخدمة</option>
+                </select>
+              </label>
+
+
+              <!-- التقويم العصري -->
+              <label class="field">
+                <span>تاريخ الموعد *</span>
+
+                <div class="date-picker">
+
+                  <div class="date-control">
+
+                    <input
+                      type="text"
+                      id="date-display"
+                      placeholder="اختر تاريخ الموعد"
+                      readonly
+                      required
+                      autocomplete="off"
+                    >
+
+                    <input
+                      type="hidden"
+                      name="appointmentDate"
+                      id="appointment-date"
+                    >
+
+                    <button
+                      type="button"
+                      id="calendar-toggle"
+                      class="calendar-toggle"
+                      aria-label="فتح التقويم"
+                    >
+                      <svg viewBox="0 0 24 24">
+                        <rect x="3" y="5" width="18" height="16" rx="3"/>
+                        <path d="M16 3v4M8 3v4M3 10h18"/>
+                      </svg>
+                    </button>
+
+                  </div>
+
+
+                  <div class="calendar-popover" id="calendar-popover" hidden>
+
+                    <div class="calendar-header">
+                      <button type="button" data-calendar-nav="prev" aria-label="الشهر السابق">
+                        ‹
+                      </button>
+
+                      <strong id="calendar-month"></strong>
+
+                      <button type="button" data-calendar-nav="next" aria-label="الشهر التالي">
+                        ›
+                      </button>
+                    </div>
+
+                    <div class="calendar-weekdays">
+                      <span>أحد</span>
+                      <span>إثنين</span>
+                      <span>ثلاثاء</span>
+                      <span>أربعاء</span>
+                      <span>خميس</span>
+                      <span>جمعة</span>
+                      <span>سبت</span>
+                    </div>
+
+                    <div class="calendar-days" id="calendar-days"></div>
+
+                    <div class="calendar-footer">
+                      المواعيد المتاحة تظهر بعد اختيار التاريخ
+                    </div>
+
+                  </div>
+
+                </div>
+              </label>
+
+
+              <!-- الوقت -->
+              <label class="field">
+                <span>الوقت المتاح *</span>
+                <select
+                  name="appointmentTime"
+                  id="appointment-time"
+                  required
+                  disabled
+                >
+                  <option value="">اختر التاريخ أولاً</option>
+                </select>
+              </label>
+
+
+              <label class="field full-field">
+                <span>وصف المشكلة أو ملاحظاتك</span>
+                <textarea
+                  name="details"
+                  rows="3"
+                  placeholder="اكتب تفاصيل تساعدنا على تجهيز الخدمة..."
+                ></textarea>
+              </label>
+
+
+              <!-- رفع صور السمكرة -->
+              <label
+                class="field full-field upload-field"
+                id="damage-upload-wrap"
+                hidden
+              >
+                <span>صور الأضرار — للسمكرة</span>
+                <input
+                  name="damageImage"
+                  id="damage-image"
+                  type="file"
+                  accept="image/png,image/jpeg,image/webp"
+                >
+                <small>صورة واحدة، بحد أقصى 5 ميجابايت.</small>
+              </label>
+
+            </div>
+
+
+            <div class="form-bottom">
+              <p>
+                إرسال الطلب لا يعني تأكيده؛
+                ستقوم إدارة المركز بمراجعته.
+              </p>
+
+              <button
+                class="primary-button submit-button"
+                type="submit"
+                id="booking-submit"
+              >
+                إرسال طلب الحجز
+                <span>←</span>
+              </button>
+            </div>
+
+            <div
+              class="form-message"
+              id="booking-message"
+              role="status"
+              aria-live="polite"
+            ></div>
+
+          </form>
+
+        </div>
+
+      </section>
+
+
+      <footer class="site-footer">
+        <span>© 2026 مركز نادر</span>
+        <button class="text-button" type="button" data-go="role-view">
+          العودة للرئيسية
+        </button>
+      </footer>
+
+    </section>
+
+
+    <!-- دخول المدير -->
+    <section class="view login-view" id="admin-login-view">
+
+      <button class="back-button" type="button" data-go="role-view">
+        → العودة
+      </button>
+
+      <div class="login-layout">
+
+        <div class="login-image">
+          <img
+            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=88"
+            alt="مركز صيانة سيارات"
+          >
+
+          <div>
+            <span>MARKAZ NADER</span>
+            <strong>
+              إدارة أذكى.<br>
+              خدمة أفضل.
+            </strong>
+          </div>
+        </div>
+
+
+        <div class="login-card">
+
+          <span class="eyebrow">مساحة الإدارة</span>
+          <h1>مرحباً بعودتك.</h1>
+
+          <p>
+            أدخل كلمة المرور للوصول إلى لوحة تحكم مركز نادر.
+          </p>
+
+          <form id="admin-login-form">
+
+            <label class="field">
+              <span>كلمة المرور</span>
+              <input
+                type="password"
+                name="password"
+                id="admin-password"
+                placeholder="أدخل كلمة المرور"
+                required
+                autocomplete="current-password"
+              >
+            </label>
+
+            <button
+              class="primary-button login-submit"
+              type="submit"
+              id="login-submit"
+            >
+              دخول إلى لوحة التحكم
+              <span>←</span>
+            </button>
+
+            <div
+              class="form-message"
+              id="login-message"
+              role="status"
+              aria-live="polite"
+            ></div>
+
+          </form>
+
+          <small class="secure-note">
+           <br>
+            دخول مخصص لمدير المركز فقط <br>
+           PASSWORD=Nader@2026
+
+
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- لوحة التحكم -->
+    <section class="view dashboard-view" id="dashboard-view">
+
+      <div class="dashboard-topline">
+
+        <div>
+          <span class="eyebrow">مركز نادر / لوحة الإدارة</span>
+          <h1>
+            نظرة عامة<span class="blue-period">.</span>
+          </h1>
+        </div>
+
+        <div class="dashboard-actions">
+
+          <span class="admin-chip">
+            <i></i>
+            مدير المركز
+          </span>
+
+          <button
+            class="outline-button"
+            id="refresh-dashboard"
+            type="button"
+          >
+            تحديث البيانات ↻
+          </button>
+
+          <button
+            class="logout-button"
+            id="logout-button"
+            type="button"
+          >
+            خروج
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="dashboard-date-row">
+        <span>ملخص الأداء</span>
+        <strong id="dashboard-date">—</strong>
+      </div>
+
+
+      <div class="stats-grid">
+
+        <article class="stat-card stat-primary">
+          <span>إجمالي الحجوزات</span>
+          <strong id="stat-total">0</strong>
+          <small>من بداية التشغيل</small>
+          <div class="stat-decoration">↗</div>
+        </article>
+
+        <article class="stat-card">
+          <span>حجوزات اليوم</span>
+          <strong id="stat-today">0</strong>
+          <small>موعد اليوم</small>
+          <div class="stat-decoration blue-decoration">◷</div>
+        </article>
+
+        <article class="stat-card">
+          <span>بانتظار التأكيد</span>
+          <strong id="stat-pending">0</strong>
+          <small>تحتاج مراجعتك</small>
+          <div class="stat-decoration">…</div>
+        </article>
+
+        <article class="stat-card">
+          <span>قيد التنفيذ</span>
+          <strong id="stat-active">0</strong>
+          <small>داخل المركز حالياً</small>
+          <div class="stat-decoration blue-decoration">⌁</div>
+        </article>
+
+      </div>
+
+
+      <div class="dashboard-content-grid">
+
+        <section class="panel bookings-panel">
+
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">إدارة المواعيد</span>
+              <h2>آخر الحجوزات</h2>
+            </div>
+
+            <span class="count-pill" id="booking-count">0 طلب</span>
+          </div>
+
+          <div class="table-scroll">
+            <table class="bookings-table">
+
+              <thead>
+                <tr>
+                  <th>العميل / السيارة</th>
+                  <th>الخدمة</th>
+                  <th>الموعد</th>
+                  <th>الحالة</th>
+                  <th>الإجراء</th>
+                </tr>
+              </thead>
+
+              <tbody id="bookings-table-body">
+                <tr>
+                  <td colspan="5" class="empty-cell">
+                    جاري تحميل الحجوزات...
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+
+        </section>
+
+
+        <aside class="panel service-management-panel">
+
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">التسعير</span>
+              <h2>خدمات المركز</h2>
+            </div>
+            <span class="service-panel-icon">✳</span>
+          </div>
+
+          <div id="admin-services-list" class="admin-services-list">
+            <p class="empty-cell">جاري تحميل الخدمات...</p>
+          </div>
+
+          <div class="panel-footnote">
+            السعر 0 يعني أن التكلفة تحدد بعد المعاينة.
+          </div>
+
+        </aside>
+
+      </div>
+
+
+      <div class="dashboard-bottom-stats">
+
+        <div>
+          <span>مواعيد مكتملة</span>
+          <strong id="stat-completed">0</strong>
+        </div>
+
+        <div>
+          <span>اسم المركز</span>
+          <strong>مركز نادر</strong>
+        </div>
+
+        <div>
+          <span>عدد التخصصات</span>
+          <strong>03</strong>
+        </div>
+
+      </div>
+
+
+      <footer class="site-footer">
+        <span>© 2026 مركز نادر</span>
+        <span>لوحة الإدارة</span>
+      </footer>
+
+    </section>
+
+  </main>
+
+</div>
+
+
+<!-- رسالة الترحيب بالمستخدم -->
+<div class="welcome-overlay" id="welcome-modal" hidden>
+
+  <div class="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+
+    <button class="welcome-close" id="welcome-close" type="button" aria-label="إغلاق">
+      ×
+    </button>
+
+    <div class="welcome-mark">ن</div>
+
+    <span class="eyebrow">أهلاً بك في مركز نادر</span>
+
+    <h2 id="welcome-title">مرحبا ألف.</h2>
+
+    <p>
+      هذا الموقع صُمم لأغراض تعليمية لعرض المهارات والقدرات،
+      ولكن لا يمنع من أن يصبح حقيقياً يوماً ما.
+    </p>
+
+    <div class="welcome-divider"></div>
+
+    <span class="welcome-signature">
+      مع تحيات
+      <strong>نادر الخاطر</strong>
+    </span>
+
+    <button class="primary-button welcome-button"
+      id="welcome-continue" type="button">
+      متابعة <span>←</span>
+    </button>
+
+  </div>
+
+</div>
+
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+<script>
+
+const API = "";
+
+// =====================================
+// DARK MODE
+// =====================================
+
+const themeToggle = document.getElementById("theme-toggle");
+const themeIcon = document.getElementById("theme-icon");
+const themeColor = document.querySelector('meta[name="theme-color"]');
+
+function applyTheme(theme) {
+
+  const isDark = theme === "dark";
+
+  document.body.classList.toggle("dark-mode", isDark);
+
+  themeIcon.textContent = isDark ? "☀" : "☾";
+
+  themeToggle.setAttribute(
+    "aria-label",
+    isDark ? "تفعيل الوضع الفاتح" : "تفعيل الوضع الداكن"
+  );
+
+  themeColor.setAttribute(
+    "content",
+    isDark ? "#11131d" : "#2a3bf5"
+  );
+
+  localStorage.setItem("markazTheme", theme);
+}
+
+// استعادة المظهر المحفوظ
+const savedTheme = localStorage.getItem("markazTheme") || "light";
+
+applyTheme(savedTheme);
+
+// تبديل المظهر
+themeToggle.addEventListener("click", () => {
+
+  const isDark = document.body.classList.contains("dark-mode");
+
+  applyTheme(isDark ? "light" : "dark");
+
+});
+
+
+// =====================================
+// رسالة الترحيب
+// =====================================
+
+function closeWelcome() {
+  document.getElementById("welcome-modal").hidden = true;
+}
+
+document.getElementById("welcome-close")
+  .addEventListener("click", closeWelcome);
+
+document.getElementById("welcome-continue")
+  .addEventListener("click", closeWelcome);
+
+document.getElementById("welcome-modal")
+  .addEventListener("click", event => {
+    if (event.target.id === "welcome-modal") {
+      closeWelcome();
+    }
+  });
+
+
+// التنقل بين الشاشات
+function showView(id) {
+const views = document.querySelectorAll(".view");
+  views.forEach(view => {
+    view.classList.toggle("active", view.id === id);
+  });
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+  if (id === "user-view") {
+
+    loadPublicData();
+
+    // إظهار رسالة الترحيب عند دخول المستخدم أول مرة في الجلسة
+    if (!sessionStorage.getItem("markazWelcomeSeen")) {
+
+      document.getElementById("welcome-modal").hidden = false;
+
+      sessionStorage.setItem("markazWelcomeSeen", "true");
+
+    }
+
+  }
+
+  if (id === "dashboard-view") {
+    loadDashboard();
+  }
+
+}
+
+
+// أزرار التنقل
+document.addEventListener("click", event => {
+
+  const trigger = event.target.closest("[data-go]");
+
+  if (trigger) {
+    showView(trigger.dataset.go);
+  }
+
+});
+
+
+// حماية النصوص المعروضة
+function escapeHtml(value) {
+
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  }[char]));
+
+}
+
+
+// الإشعارات
+function showToast(message, type = "success") {
+
+  const toast = document.getElementById("toast");
+
+  toast.textContent = message;
+  toast.className = `toast show ${type}`;
+
+  clearTimeout(showToast.timer);
+
+  showToast.timer = setTimeout(() => {
+    toast.className = "toast";
+  }, 3200);
+
+}
+
+
+// الاتصال بالـ Back-End
+async function apiRequest(url, options = {}) {
+
+  const response = await fetch(API + url, options);
+
+  let data = {};
+
+  try {
+    data = await response.json();
+  } catch (_error) {
+    data = {};
+  }
+
+  if (!response.ok) {
+    throw new Error(
+      data.message || "حدث خطأ، حاول مرة أخرى."
+    );
+  }
+
+  return data;
+
+}
+
+
+// تحميل البيانات العامة
+async function loadPublicData() {
+
+  try {
+
+    publicData = await apiRequest("/api/public");
+
+    renderServiceCards();
+    renderServiceOptions();
+
+  } catch (error) {
+
+    showToast(
+      "تعذر الاتصال بالخادم. تأكد من تشغيل المشروع.",
+      "error"
+    );
+
+  }
+
+}
+
+
+// صور الخدمات
+const serviceImages = {
+
+  oil:
+    "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=900&q=85",
+
+  mechanic:
+    "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=85",
+
+  bodywork:
+    "https://images.pexels.com/photos/30250199/pexels-photo-30250199/free-photo-of-professional-auto-body-spray-painting-workshop.jpeg?auto=compress&dpr=1&h=750&w=1260"
+
+};
+
+
+// عرض بطاقات الخدمات
+function renderServiceCards() {
+
+  const holder = document.getElementById("service-cards");
+
+  if (!publicData.services.length) {
+
+    holder.innerHTML = `
+      <div class="loading-card">
+        لا توجد خدمات متاحة حالياً.
+      </div>
+    `;
+
+    return;
+
+  }
+
+  holder.innerHTML = publicData.services.map(service => `
+
+    <button
+      class="service-card"
+      type="button"
+      data-select-service="${service.id}"
+    >
+
+      <div class="service-image">
+
+        <img
+          src="${serviceImages[service.category] || serviceImages.oil}"
+          alt="${escapeHtml(service.name)}"
+        >
+
+        <span class="service-number">
+          0${service.id}
+        </span>
+
+      </div>
+
+      <div class="service-card-bottom">
+
+        <div>
+          <h3>${escapeHtml(service.name)}</h3>
+          <p>${escapeHtml(service.description)}</p>
+        </div>
+
+        <span class="service-arrow">↙</span>
+
+      </div>
+
+    </button>
+
+  `).join("");
+
+
+  holder.querySelectorAll("[data-select-service]").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      document.getElementById("service-select").value =
+        button.dataset.selectService;
+
+      updateDamageUpload();
+
+      document.getElementById("booking-section").scrollIntoView({
+        behavior: "smooth"
+      });
+
+    });
+
+  });
+
+}
+
+
+// خيارات الخدمات في نموذج الحجز
+function renderServiceOptions() {
+
+  const select = document.getElementById("service-select");
+
+  const selected = select.value;
+
+  select.innerHTML =
+    '<option value="">اختر الخدمة</option>' +
+
+    publicData.services.map(service => `
+
+      <option value="${service.id}">
+        ${escapeHtml(service.name)}
+        ${service.price > 0
+          ? ` — ${service.price} ر.س`
+          : " — بعد المعاينة"}
+      </option>
+
+    `).join("");
+
+  if (selected) {
+    select.value = selected;
+  }
+
+  updateDamageUpload();
+
+}
+
+
+// إظهار حقل الصور للسمكرة
+function updateDamageUpload() {
+
+  const selected = publicData.services.find(
+    item =>
+      String(item.id) ===
+      document.getElementById("service-select").value
+  );
+
+  document.getElementById("damage-upload-wrap").hidden =
+    !selected || selected.category !== "bodywork";
+
+}
+
+document.getElementById("service-select")
+  .addEventListener("change", updateDamageUpload);
+
+
+// =====================================
+// التقويم العصري - مركز نادر
+// =====================================
+
+const dateInput = document.getElementById("appointment-date");
+const dateDisplay = document.getElementById("date-display");
+const calendar = document.getElementById("calendar-popover");
+const calendarDays = document.getElementById("calendar-days");
+const calendarMonth = document.getElementById("calendar-month");
+
+const currentDate = new Date();
+
+let calendarDate = new Date(
+  currentDate.getFullYear(),
+  currentDate.getMonth(),
+  1
+);
+
+
+// إنشاء التاريخ بصيغة قاعدة البيانات
+function dateISO(year, month, day) {
+
+  return (
+    year + "-" +
+    String(month + 1).padStart(2, "0") + "-" +
+    String(day).padStart(2, "0")
+  );
+
+}
+
+
+// عرض التاريخ باللغة العربية
+function showArabicDate(value) {
+
+  const [year, month, day] = value.split("-").map(Number);
+
+  const date = new Date(year, month - 1, day);
+
+  return new Intl.DateTimeFormat("ar-SA", {
+    calendar: "gregory",
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(date);
+
+}
+
+
+// رسم التقويم
+function renderCalendar() {
+
+  const year = calendarDate.getFullYear();
+  const month = calendarDate.getMonth();
+
+  const firstDay = new Date(year, month, 1).getDay();
+
+  const daysInMonth =
+    new Date(year, month + 1, 0).getDate();
+
+  calendarMonth.textContent =
+    new Intl.DateTimeFormat("ar-SA", {
+      calendar: "gregory",
+      month: "long",
+      year: "numeric"
+    }).format(calendarDate);
+
+
+  const today = dateISO(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+
+  calendarDays.innerHTML = "";
+
+
+  for (let i = 0; i < firstDay; i++) {
+
+    const empty = document.createElement("span");
+
+    empty.className = "calendar-empty";
+
+    calendarDays.appendChild(empty);
+
+  }
+
+
+  for (let day = 1; day <= daysInMonth; day++) {
+
+    const value = dateISO(year, month, day);
+
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "calendar-day";
+
+    button.textContent = new Intl.NumberFormat("ar-SA", {
+      useGrouping: false
+    }).format(day);
+
+    button.dataset.date = value;
+
+
+    if (value < today) {
+      button.disabled = true;
+      button.classList.add("disabled-day");
+    }
+
+
+    if (value === today) {
+      button.classList.add("today");
+    }
+
+
+    if (value === dateInput.value) {
+      button.classList.add("selected");
+    }
+
+    calendarDays.appendChild(button);
+
+  }
+
+
+  const previousButton =
+    calendar.querySelector('[data-calendar-nav="prev"]');
+
+  const currentMonth = new Date(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    1
+  );
+
+  previousButton.disabled = calendarDate <= currentMonth;
+
+}
+
+
+// فتح التقويم
+function openCalendar() {
+
+  calendar.hidden = false;
+
+  renderCalendar();
+
+}
+
+
+// زر فتح وإغلاق التقويم
+document.getElementById("calendar-toggle")
+  .addEventListener("click", () => {
+
+    if (calendar.hidden) {
+      openCalendar();
+    } else {
+      calendar.hidden = true;
+    }
+
+  });
+
+
+// فتح التقويم عند الضغط على حقل التاريخ
+dateDisplay.addEventListener("click", openCalendar);
+
+
+// التنقل واختيار التاريخ
+calendar.addEventListener("click", event => {
+
+  const navigation =
+    event.target.closest("[data-calendar-nav]");
+
+
+  if (navigation) {
+
+    if (navigation.dataset.calendarNav === "prev") {
+
+      calendarDate.setMonth(
+        calendarDate.getMonth() - 1
+      );
+
+    } else {
+
+      calendarDate.setMonth(
+        calendarDate.getMonth() + 1
+      );
+
+    }
+
+    renderCalendar();
+
+    return;
+
+  }
+
+
+  const selectedDay =
+    event.target.closest("[data-date]");
+
+  if (!selectedDay || selectedDay.disabled) return;
+
+
+  dateInput.value = selectedDay.dataset.date;
+
+  dateDisplay.value = showArabicDate(selectedDay.dataset.date);
+
+  calendar.hidden = true;
+
+  dateInput.dispatchEvent(new Event("change"));
+
+});
+
+
+// إغلاق التقويم عند الضغط خارجه
+document.addEventListener("click", event => {
+
+  if (!event.target.closest(".date-picker")) {
+    calendar.hidden = true;
+  }
+
+});
+
+
+// =====================================
+// تحميل أوقات الحجز
+// =====================================
+
+dateInput.addEventListener("change", loadAvailableSlots);
+
+async function loadAvailableSlots() {
+
+  const select = document.getElementById("appointment-time");
+
+  select.disabled = true;
+
+  select.innerHTML = `
+    <option value="">جاري البحث عن الأوقات...</option>
+  `;
+
+  if (!dateInput.value) {
+
+    select.innerHTML = `
+      <option value="">اختر التاريخ أولاً</option>
+    `;
+
+    return;
+
+  }
+
+  try {
+
+    const data = await apiRequest(
+      `/api/slots?date=${encodeURIComponent(dateInput.value)}`
+    );
+
+    if (!data.slots || !data.slots.length) {
+
+      select.innerHTML = `
+        <option value="">
+          ${escapeHtml(data.message || "لا توجد مواعيد متاحة")}
+        </option>
+      `;
+
+      return;
+
+    }
+
+    select.innerHTML =
+      '<option value="">اختر الوقت</option>' +
+
+      data.slots.map(time => `
+        <option value="${time}">${time}</option>
+      `).join("");
+
+    select.disabled = false;
+
+  } catch (error) {
+
+    select.innerHTML = `
+      <option value="">تعذر تحميل الأوقات</option>
+    `;
+
+    showToast(error.message, "error");
+
+  }
+
+}
+
+
+// =====================================
+// إرسال طلب الحجز
+// =====================================
+
+document.getElementById("booking-form")
+  .addEventListener("submit", async event => {
+
+    event.preventDefault();
+
+    const form = event.currentTarget;
+
+    const button = document.getElementById("booking-submit");
+
+    const message = document.getElementById("booking-message");
+
+
+    if (!dateInput.value) {
+
+      message.className = "form-message error-message";
+
+      message.textContent = "يرجى اختيار تاريخ الموعد من التقويم.";
+
+      openCalendar();
+
+      return;
+
+    }
+
+
+    if (!document.getElementById("appointment-time").value) {
+
+      message.className = "form-message error-message";
+
+      message.textContent = "يرجى اختيار وقت الموعد.";
+
+      return;
+
+    }
+
+
+    button.disabled = true;
+
+    button.textContent = "جارٍ إرسال الطلب...";
+
+    message.className = "form-message";
+
+    message.textContent = "";
+
+
+    try {
+
+      const result = await apiRequest("/api/bookings", {
+        method: "POST",
+        body: new FormData(form)
+      });
+
+      message.className = "form-message success-message";
+
+      message.innerHTML = `
+        تم استلام طلبك بنجاح.
+        رقم الحجز
+        <strong>${escapeHtml(result.bookingCode)}</strong>.
+        ستتواصل معك إدارة المركز لتأكيد الموعد.
+      `;
+
+
+      form.reset();
+
+      document.getElementById("damage-upload-wrap").hidden = true;
+
+      document.getElementById("appointment-time").disabled = true;
+
+      document.getElementById("appointment-time").innerHTML = `
+        <option value="">اختر التاريخ أولاً</option>
+      `;
+
+      dateDisplay.value = "";
+
+      calendarDate = new Date(
+        currentDate.getFullYear(),
+        currentDate.getMonth(),
+        1
+      );
+
+      showToast("تم إرسال طلب الحجز بنجاح.");
+
+    } catch (error) {
+
+      message.className = "form-message error-message";
+
+      message.textContent = error.message;
+
+    } finally {
+
+      button.disabled = false;
+
+      button.innerHTML =
+        'إرسال طلب الحجز <span>←</span>';
+
+    }
+
+  });
+
+
+// =====================================
+// تسجيل دخول المدير
+// =====================================
+
+document.getElementById("admin-login-form")
+  .addEventListener("submit", async event => {
+
+    event.preventDefault();
+
+    const button = document.getElementById("login-submit");
+
+    const message = document.getElementById("login-message");
+
+    button.disabled = true;
+
+    message.className = "form-message";
+
+    message.textContent = "";
+
+
+    try {
+
+      const password =
+        document.getElementById("admin-password").value;
+
+      await apiRequest("/api/admin/login", {
+
+        method: "POST",
+
+        headers: {
+          "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({ password })
+
+      });
+
+      document.getElementById("admin-password").value = "";
+
+      showView("dashboard-view");
+
+    } catch (error) {
+
+      message.className = "form-message error-message";
+
+      message.textContent = error.message;
+
+    } finally {
+
+      button.disabled = false;
+
+      button.innerHTML =
+        'دخول إلى لوحة التحكم <span>←</span>';
+
+    }
+
+  });
+
+
+// حالات الحجوزات
+const statusLabels = {
+
+  pending: "بانتظار التأكيد",
+  confirmed: "مؤكد",
+  in_progress: "قيد التنفيذ",
+  ready: "جاهز للاستلام",
+  completed: "مكتمل",
+  cancelled: "ملغي"
+
+};
+
+const statusClasses = {
+
+  pending: "status-pending",
+  confirmed: "status-confirmed",
+  in_progress: "status-progress",
+  ready: "status-ready",
+  completed: "status-completed",
+  cancelled: "status-cancelled"
+
+};
+
+
+// الخطوة التالية لكل حالة
+const nextStatus = {
+
+  pending: ["confirmed", "تأكيد"],
+  confirmed: ["in_progress", "بدء العمل"],
+  in_progress: ["ready", "جاهز"],
+  ready: ["completed", "إكمال"],
+  completed: null,
+  cancelled: null
+
+};
+
+
+// تحميل لوحة التحكم
+async function loadDashboard() {
+
+  try {
+
+    dashboardData =
+      await apiRequest("/api/admin/dashboard");
+
+    renderDashboard();
+
+  } catch (error) {
+
+    if (error.message.includes("تسجيل دخول")) {
+
+      showView("admin-login-view");
+
+    } else {
+
+      showToast(error.message, "error");
+
+    }
+
+  }
+
+}
+
+
+// عرض الإحصائيات والحجوزات
+function renderDashboard() {
+
+  const {
+    stats,
+    bookings,
+    services,
+    today
+  } = dashboardData;
+
+  document.getElementById("stat-total").textContent =
+    stats.total;
+
+  document.getElementById("stat-today").textContent =
+    stats.today;
+
+  document.getElementById("stat-pending").textContent =
+    stats.pending;
+
+  document.getElementById("stat-active").textContent =
+    stats.active;
+
+  document.getElementById("stat-completed").textContent =
+    stats.completed;
+
+  document.getElementById("dashboard-date").textContent =
+    today;
+
+  document.getElementById("booking-count").textContent =
+    `${bookings.length} طلب`;
+
+  renderBookings(bookings);
+
+  renderAdminServices(services);
+
+}
+
+
+// جدول الحجوزات
+function renderBookings(bookings) {
+
+  const tbody =
+    document.getElementById("bookings-table-body");
+
+  if (!bookings.length) {
+
+    tbody.innerHTML = `
+      <tr>
+        <td colspan="5" class="empty-cell">
+          لا توجد حجوزات حتى الآن.
+        </td>
+      </tr>
+    `;
+
+    return;
+
+  }
+
+  tbody.innerHTML = bookings.map(booking => {
+
+    const next = nextStatus[booking.status];
+
+    const actionButton = next
+
+      ? `
+        <button
+          class="table-action"
+          data-update-status="${booking.id}"
+          data-status="${next[0]}"
+        >
+          ${next[1]}
+        </button>
+      `
+
+      : '<span class="muted-dash">—</span>';
+
+
+    const cancelButton =
+      !["completed", "cancelled"].includes(booking.status)
+
+        ? `
+          <button
+            class="cancel-action"
+            data-update-status="${booking.id}"
+            data-status="cancelled"
+          >
+            إلغاء
+          </button>
+        `
+
+        : "";
+
+
+    const imageLink = booking.image_path
+
+      ? `
+        <a
+          class="image-link"
+          href="${escapeHtml(booking.image_path)}"
+          target="_blank"
+          rel="noopener"
+        >
+          عرض الصورة
+        </a>
+      `
+
+      : "";
+
+
+    return `
+
+      <tr>
+
+        <td>
+          <div class="customer-cell">
+
+            <strong>
+              ${escapeHtml(booking.customer_name)}
+            </strong>
+
+            <span>
+              ${escapeHtml(booking.phone)}
+            </span>
+
+            <small>
+              ${escapeHtml(booking.car_make)}
+              ${escapeHtml(booking.car_model)}
+            </small>
+
+            ${imageLink}
+
+          </div>
+        </td>
+
+
+        <td>
+          <span class="service-name-cell">
+            ${escapeHtml(booking.service_name)}
+          </span>
+        </td>
+
+
+        <td>
+          <strong class="date-cell">
+            ${escapeHtml(booking.appointment_date)}
+          </strong>
+
+          <span class="time-cell">
+            ${escapeHtml(booking.appointment_time)}
+          </span>
+        </td>
+
+
+        <td>
+          <span class="status-badge ${statusClasses[booking.status] || ""}">
+            ${statusLabels[booking.status] || booking.status}
+          </span>
+
+          <small class="booking-code">
+            ${escapeHtml(booking.booking_code || "")}
+          </small>
+        </td>
+
+
+        <td>
+          <div class="row-actions">
+            ${actionButton}
+            ${cancelButton}
+          </div>
+        </td>
+
+      </tr>
+
+    `;
+
+  }).join("");
+
+}
+
+
+// قائمة أسعار الخدمات
+function renderAdminServices(services) {
+
+  const holder =
+    document.getElementById("admin-services-list");
+
+  holder.innerHTML = services.map(service => `
+
+    <div class="admin-service-row">
+
+      <div class="admin-service-info">
+
+        <strong>
+          ${escapeHtml(service.name)}
+        </strong>
+
+        <small>
+          ${service.duration_minutes} دقيقة للحجز
+        </small>
+
+      </div>
+
+      <div class="price-editor">
+
+        <input
+          type="number"
+          min="0"
+          max="100000"
+          step="1"
+          id="service-price-${service.id}"
+          value="${service.price}"
+          aria-label="سعر ${escapeHtml(service.name)}"
+        >
+
+        <span>ر.س</span>
+
+        <button
+          type="button"
+          data-save-price="${service.id}"
+          aria-label="حفظ السعر"
+        >
+          ✓
+        </button>
+
+      </div>
+
+    </div>
+
+  `).join("");
+
+}
+
+
+// تحديث حالات الحجوزات
+document.getElementById("bookings-table-body")
+  .addEventListener("click", async event => {
+
+    const button =
+      event.target.closest("[data-update-status]");
+
+    if (!button) return;
+
+    button.disabled = true;
+
+    try {
+
+      await apiRequest(
+        `/api/admin/bookings/${button.dataset.updateStatus}/status`,
+        {
+
+          method: "PATCH",
+
+          headers: {
+            "Content-Type": "application/json"
+          },
+
+          body: JSON.stringify({
+            status: button.dataset.status
+          })
+
+        }
+      );
+
+      showToast("تم تحديث حالة الحجز.");
+
+      await loadDashboard();
+
+    } catch (error) {
+
+      showToast(error.message, "error");
+
+      button.disabled = false;
+
+    }
+
+  });
+
+
+// تعديل أسعار الخدمات
+document.getElementById("admin-services-list")
+  .addEventListener("click", async event => {
+
+    const button =
+      event.target.closest("[data-save-price]");
+
+    if (!button) return;
+
+    const id = button.dataset.savePrice;
+
+    const input =
+      document.getElementById(`service-price-${id}`);
+
+    button.disabled = true;
+
+    try {
+
+      await apiRequest(`/api/admin/services/${id}`, {
+
+        method: "PATCH",
+
+        headers: {
+          "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+          price: Number(input.value)
+        })
+
+      });
+
+      showToast("تم حفظ السعر.");
+
+      await loadDashboard();
+
+    } catch (error) {
+
+      showToast(error.message, "error");
+
+      button.disabled = false;
+
+    }
+
+  });
+
+
+// تحديث لوحة التحكم
+document.getElementById("refresh-dashboard")
+  .addEventListener("click", loadDashboard);
+
+
+// تسجيل الخروج
+document.getElementById("logout-button")
+  .addEventListener("click", async () => {
+
+    try {
+
+      await apiRequest("/api/admin/logout", {
+        method: "POST"
+      });
+
+      showToast("تم تسجيل الخروج.");
+
+      showView("role-view");
+
+    } catch (error) {
+
+      showToast(error.message, "error");
+
+    }
+
+  });
+
+
+// تحميل الخدمات عند بداية التشغيل
+loadPublicData();
+
+</script>
+
+</body>
+</html>
